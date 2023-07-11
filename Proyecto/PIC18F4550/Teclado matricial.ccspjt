@@ -1,0 +1,23 @@
+[PROJECT]
+Target=Teclado matricial.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.090
+Compiler=PCH
+[Target Data]
+FileList=Teclado matricial.c
+[Teclado matricial.c]
+Type=4
+[mru-list]
+1=Teclado matricial.c
+[Units]
+Count=1
+1=Teclado matricial (main)
+
+[defines]
+buildcount=1
+
+[ProjectLog]
+Days=1
+D1=01-12-2020
+D1_L=1
+D1_L1=[42006]Project Closed.
