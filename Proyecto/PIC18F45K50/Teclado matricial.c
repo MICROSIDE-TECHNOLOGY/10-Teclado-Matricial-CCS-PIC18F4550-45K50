@@ -1,8 +1,10 @@
- /*
-AUTOR: MICROSIDE TECHNOLOGY S.A. DE C.V.
-FECHA: JUNIO 2019
-*/
-
+/************************************************************************************************
+Company:
+Microside Technology Inc.
+Product Revision  :  1
+Device            :  X-TRAINER
+Driver Version    :  1.0
+************************************************************************************************/
 /*
 ---------------------------------------------------------------------------
 En esta práctica se realiza el control de encendido o apagado de un LED 
@@ -16,7 +18,7 @@ el LED y al presionar la tecla 0 se apagará el LED.
 #build(reset=0x02000,interrupt=0x02008)                      // Asigna los vectores de reset e interrupción para la versión con bootloader
 #org 0x0000,0x1FFF {}                                        // Reserva espacio en memoria para el bootloader
 
-#define LED PIN_A1                                           //Pin donde está conectado el LED del X-TRAINER
+#define LED PIN_A4                                           //Pin donde está conectado el LED del X-TRAINER
 char TECLA_PRESS;
 
 /*
